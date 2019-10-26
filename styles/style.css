@@ -1,0 +1,299 @@
+/* start font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+/* end font */
+
+/* start body */
+body {
+    background-color: beige;
+    color: black;
+    font-family: 'Montserrat', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* end body */
+
+/* start debug*/
+.bg-chocolate {
+    background-color: rgba(210, 105, 30, 0.473);
+}
+.bg-gray{
+    background-color: rgba(128, 128, 128, 0.705);
+}
+/* end debug*/
+
+/* start container*/
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/* end container*/
+
+/* start logo */
+.logo {
+    text-align: center;
+}
+/* end logo */
+
+/* start anchor / hyperlink */
+a:link,
+a:visited {
+    color: rgb(101, 72, 124) ;
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color: #000000;
+    text-decoration: none;
+}
+/* end anchor / hyperlink */
+
+/* start menu primer */
+.menu-primer ul {
+    background-color: grey;
+    border-radius: 4px;
+    box-shadow: 
+        0 3px 5px -1px rgba(0,0,0,.2),
+        0 6px 10px 0 rgba(0,0,0,.14),
+        0 1px 18px 0 rgba(0,0,0,.12);
+}
+
+.menu-primer li {
+    border-right: 1px solid #d1d5da;
+    display: inline-block;
+    margin: 0 -4px
+}
+
+.menu-primer a {
+    color: #ffffff;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: #f7f7f7;
+    color:#000000;
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: #ffffff;
+    color: #333333;
+    text-decoration: none; 
+}
+/* end menu primer */
+
+/* start heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+/* end heading */
+
+/* start jumbotron */
+.jumbotron {
+    background-color: #DB9D47;
+    border: 1px solid #FFE19C;
+    border-radius: 4px; 
+    padding: 20px 0;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+
+.jumbotron h3 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+/* end jumbotron */
+
+/* start main*/
+.main-home-one {
+    float: left;
+    width: 49.5%;
+}
+
+.main-home-two {
+    float: right;
+    width: 49.5%;
+}
+
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+    height: 140px;
+}
+
+.main-one {
+    float: left;
+    overflow: auto;
+    width: 69.5%;
+}
+/* end main */
+
+/* start sidebar */
+.sidebar-two {
+    float: right;
+    overflow: auto;
+    width: 29.5%;
+}
+/* end sidebar */
+
+/* start box */
+.box-heading {
+    background-color: #E6DBD0;
+    border: 1px solid #7D6167;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+.box-isi {
+    background-color: #ffffff;
+    border: 1px solid #F9E0D9;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+/* end box */
+
+/* start testimonial */
+.testimonial {
+    border-left: 4px solid #dfe2e5;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+/* end testimonial */
+
+/* start layanan-table */
+.layanan-table {
+    border: 1px solid #7D6167;
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+}
+
+.layanan-table th {
+    background-color: #f6f1eb;
+}
+
+.layanan-table td {
+    text-align: center;
+}
+/* end layanan-table */
+
+/* start form */
+input [type="text"],
+input [type="email"],
+textarea {
+    font-size: 14px; 
+    padding: 10px;
+}
+
+input::placeholder 
+textarea::placeholder {
+    color: #888888;
+    font-weight: 300;
+}
+
+input[type="submit"],
+.button {
+    background-color: #eff3f6;
+    background-image: linear-gradient(-180deg, #fafbfc 0%,#eff3f6 90% );
+    border: 1px solid rgba(27, 31,35, 0.2);
+    border-radius: 4px;
+    color: #000000 !important;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 5px 10px;
+    text-decoration: none !important; 
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+}
+/* end form */
+
+/* start contact form */
+.contact-form div {
+    margin: 20px 0;
+}
+/* end contact form */
+
+/* start menu sekunder */
+.menu-sekunder {
+    background-color: #DB9D47;
+    border-bottom: 1px solid #FFE19C;
+    border-top: 1px solid #FFE19C;
+    overflow: auto;
+    padding: 10px 0;
+}
+.menu-sekunder h4 {
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.menu-sekunder ul {
+    padding: 0;
+}
+.menu-sekunder li {
+    list-style: disc;
+}
+.menu-sekunder li a,
+.menu-sekunder p {
+    font-size: 15px;
+}
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+}
+.menu-sekunder-one {
+    width: 40%;
+}
+.menu-sekunder-two,
+.menu-sekunder-three {
+    width: 30%;
+}
+.menu-sekunder li img {
+    vertical-align: middle;
+}
+/* end menu sekunder */
+
+/* start copyright */
+.copyright p {
+    font-size: 15px;
+}
+/* start copyright */
